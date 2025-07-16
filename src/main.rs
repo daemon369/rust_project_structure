@@ -1,12 +1,15 @@
 
-struct A {
-    a: i32,
+mod module {
+    pub struct A {
+        pub a: i32,
+    }
+
+    pub struct B {
+        pub b: i32,
+    }
 }
 
-struct B {
-    b: i32,
-}
-
+use crate::module::*;
 
 fn main() {
     let a = A { a: 42, };
