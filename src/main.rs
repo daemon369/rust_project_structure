@@ -1,6 +1,7 @@
 mod module;
 
-use crate::module::*;
+use crate::module::a::*;
+use crate::module::b::*;
 
 fn main() {
     let a = A { a: 42, };
