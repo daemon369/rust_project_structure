@@ -1,5 +1,5 @@
-use library::module::a::*;
-use library::module::b::*;
+use library::module::A;
+use library::module::B;
 
 fn main() {
     let a = A { a: 42, };

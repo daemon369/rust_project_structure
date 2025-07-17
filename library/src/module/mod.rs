@@ -1,2 +1,5 @@
-pub mod a;
-pub mod b;
+mod a;
+mod b;
+
+pub use a::*;
+pub use b::*;
